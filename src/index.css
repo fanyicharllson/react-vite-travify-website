@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  outline: none;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+/* Custom CSS to hide Swiper navigation on small screens (mobile) */
+@media (max-width: 640px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none !important; 
+  }
+}
+
+@media (min-width: 640px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: block !important; /* Show on larger screens */
+  }
+}
+
+
+@layer components {
+  .max-container {
+    max-width: 900px;
+    width: 95%;
+    margin: 0 auto;
+  }
+}
+@layer utilities {
+  .heading {
+    @apply m-auto text-center text-3xl font-bold max-sm:text-[1.5rem] pb-5 max-sm:pb-2;
+  }
+  .imageHero {
+    @apply max-lg:h-[500px] lg:h-[600px] h-screen bg-cover bg-center bg-no-repeat flex items-center justify-center pt-20;
+  }
+  
+
+}
+
