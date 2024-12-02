@@ -5,7 +5,7 @@ const choose = () => {
   const chooseReason2 = "Secure Booking";
   const chooseReason3 = "Seamless Experience";
   return (
-    <section className="py-12 bg-gray-100 px-5">
+    <section className="py-12 max-sm:py-6 bg-gray-100 px-5">
       <div className="max-w-[1024px] m-auto">
       <h1 className="heading">
         Why Choose us?

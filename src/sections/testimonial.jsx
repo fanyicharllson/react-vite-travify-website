@@ -30,7 +30,7 @@ const Testimonials = () => {
 
   return (
     <div className="bg-gradient-to-r from-purple-500 to-indigo-500 py-16">
-      <h2 className="text-4xl font-bold text-center text-white mb-8">
+      <h2 className="text-3xl max-sm:text-[1.5rem] font-bold text-center text-white mb-8">
         What Our Clients Say
       </h2>
 

@@ -1,6 +1,6 @@
 const faqs = () => {
   return (
-    <section className="bg-gray-100 shadow-md py-12">
+    <section className="bg-gray-100 shadow-md py-12 max-sm:py-6">
       <h2 className="heading">Frequently Asked Questions</h2>
       <div className="container flex flex-col justify-center p-4 mx-auto md:p-8">
         <div className="flex flex-col divide-y sm:px-8 lg:px-12 xl:px-32 divide-gray-700">

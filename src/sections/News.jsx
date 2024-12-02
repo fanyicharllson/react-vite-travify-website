@@ -1,10 +1,10 @@
 const News = () => {
   return (
     <>
-      <section className="bg-gray-100">
+      <section className="bg-gray-100 max-sm:py-6">
         <div className="p-8 md:p-12 lg:px-16 lg:py-24">
           <div className="mx-auto max-w-lg text-center">
-            <h2 className="text-3xl font-bold text-gray-900 md:text-3xl">
+            <h2 className="text-3xl max-sm:text-[1.5rem] font-bold text-gray-900 md:text-3xl">
               Want product news and updates? Sign up for our newsletter.
             </h2>
 

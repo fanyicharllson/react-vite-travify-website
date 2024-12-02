@@ -19,16 +19,16 @@ const Maldives = () => {
             </h1>
           </div>
 
-          <div className=" bg-white mt-9 max-lg:mt-7 h-[1px]"></div>
-          <div className="mt-10 relative">
+          <div className=" bg-white mt-6 max-lg:mt-5 h-[1px]"></div>
+          <div className="mt-5 relative">
             <div className="overflow-hidden">
-              <p className="text-sm max-sm:text-base tracking-widest leading-6 font-medium text-gray-100">
+              <p className="text-sm max-sm:text-base tracking-widest max-sm:tracking-normal leading-6 italic text-gray-100">
                 Maldives is a landlocked island nation in the Indian Ocean. It
                 has a coastline stretching from the Arabian Sea to the Gulf of
                 Oman. The country is bordered by Bahrain to the east, Saudi
                 Arabia to the north, Oman to the northwest, and the Arabian Sea
                 to the south.
-                <div className="py-4 mt-6">
+                <div className="py-4 mt-2 lg:mt-3">
                   <Link
                     to="/see more"
                     className="border-2 border-purple-600 bg-purple-600 rounded-full py-3 px-10 text-[15px]"

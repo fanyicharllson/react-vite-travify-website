@@ -6,7 +6,7 @@ const Partners = () => {
     { id: 4, name: "Partner Four", logo: "https://via.placeholder.com/150" },
   ];
   return (
-    <section className="py-12 bg-gray-100 px-5">
+    <section className="py-12  max-sm:py-6 bg-gray-100 px-5">
       <div className="max-container text-center">
         <h1 className="heading">Our Partners</h1>
         <div className="grid max-sm:grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-4 pt-6">

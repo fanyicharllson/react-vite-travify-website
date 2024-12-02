@@ -61,9 +61,8 @@ const NavBar = () => {
           <h1 className="text-4xl max-md:text-2xl max-md:tracking-normal  font-bold uppercase tracking-wide text-white">
             Explore the World with Travify
           </h1>
-          <p className="text-2xl max-md:text-2xl max-sm:text-[1rem] max-w-xl mx-auto text-slate-100 pb-5 max-sm:leading-normal">
-            Discover your next adventure with us. Book with ease and travel
-            confidently.
+          <p className="text-[18px] max-md:text-2xl max-sm:text-[1rem] max-w-2xl mx-auto text-slate-300  max-md:leading-normal">
+          Discover your next adventure with us. Book with ease, travel confidently, and explore thrilling destinations or tranquil getaways. Let Travify turn your travel dreams into reality with unforgettable journeys tailored just for you.
           </p>
           <div className="flex justify-center text-center gap-4">
             <Link

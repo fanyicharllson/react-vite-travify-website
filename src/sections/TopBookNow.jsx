@@ -10,7 +10,7 @@ const TopBookNow = () => {
   const fetchImages = async () => {
     try {
       const respond = await fetch(
-        `https://api.unsplash.com/search/photos?query=cityscapes&per_page=8&client_id=${accessKey}`
+        `https://api.unsplash.com/search/photos?query=cityscapes&per_page=6&client_id=${accessKey}`
       );
       const data = await respond.json();
       setImages(data.results);
@@ -24,10 +24,10 @@ const TopBookNow = () => {
   }, []);
 
   return (
-    <section className="py-12 bg-gray-100">
+    <section className="py-12 max-sm:py-6 bg-gray-100">
       <div className="container mx-auto px-4">
         <h2 className="heading uppercase">Top Book now</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {images.map((image) => (
             <div
               key={image.id}
