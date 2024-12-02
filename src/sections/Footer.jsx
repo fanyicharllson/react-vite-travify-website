@@ -22,7 +22,7 @@ const Footer = () => {
                         <li><Link to="/policy">Privacy Policy</Link></li>
                     </ul>
                 </div>
-                <div className="max-md:text-center">
+                <div className="max-sm:pt-4">
                     <h3 className="mb-3 font-medium">Follow Us</h3>
                     <ul className="flex justify-center gap-2 max-sm:ml-10">
                         <li><Link to="#"><img src="https://img.icons8.com/color/48/000000/facebook-logo.png" alt="facebook" /></Link></li>
@@ -31,7 +31,7 @@ const Footer = () => {
                     </ul>
                 </div>
             </div>
-           <div className="text-center mt-2 max-md:mt-3">
+           <div className="text-center mt-4 max-md:mt-5">
            <p className="text-sm">© 2024 Travify. All rights reserved.</p>
            <p className="text-sm">Explore. Dream. Discover.</p>
            </div>
