@@ -38,7 +38,7 @@ const NewFeatures = () => {
               <img
                 src={image.urls.regular}
                 alt={image.alt_description || "Beach"}
-                className="h-48 w-full object-cover group-hover:scale-105 transition-transform duration-300 "
+                className="h-56 w-full object-cover group-hover:scale-105 transition-transform duration-300 "
               />
               <NewFeatureText
                 date="02 December 2024"
