@@ -8,6 +8,7 @@ import Faqs from "../sections/faqs";
 import NewFeatures from "../sections/NewFeatures";
 import Testimonial from "../sections/testimonial";
 import News from "../sections/News";
+import Footer from "../sections/Footer";
 
 const HomePage = () => {
   return (
@@ -22,6 +23,7 @@ const HomePage = () => {
         <NewFeatures />
         <Testimonial />
         <News />
+        <Footer />
       </main>
 
       {/* <footer className="bg-gray-800 text-white p-4 text-center">
