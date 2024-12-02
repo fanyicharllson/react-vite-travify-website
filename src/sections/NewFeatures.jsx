@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import NewFeatureText from "../components/NewFeatureText";
 const accessKey = import.meta.env.VITE_UNSPLASH_ACCESS_KEY;
 
 const NewFeatures = () => {
@@ -28,11 +29,18 @@ const NewFeatures = () => {
       <div className="max-container">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {images.map((image) => (
-            <div key={image.id} className="relative group rounded-lg shadow-lg overflow-hidden">
+            <div
+              key={image.id}
+              className="relative group rounded-lg shadow-xl overflow-hidden"
+            >
               <img
                 src={image.urls.regular}
                 alt={image.alt_description || "Beach"}
                 className="h-64 w-full object-cover group-hover:scale-105 transition-transform duration-300 "
+              />
+              <NewFeatureText
+                date="02 December 2024"
+                text="Top 10 Beatiful Beaches"
               />
             </div>
           ))}
