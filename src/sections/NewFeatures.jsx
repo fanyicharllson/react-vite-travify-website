@@ -29,7 +29,7 @@ const NewFeatures = () => {
     <section className="bg-gray-100 pb-12 max-sm:py-6">
       <h1 className="heading capitalize">Feature news</h1>
       <div className="max-container">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {images.map((image) => (
             <div
               key={image.id}
