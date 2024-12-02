@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 const NewFeatureText = ({ date, text }) => {
   return (
     <>
-      <div className="py-3 px-2 text-center">
+      <div className="py-3 px-3">
         <div className="text-sm">{date}</div>
         <div className="font-bold text-black">{text}</div>
         <div className="">

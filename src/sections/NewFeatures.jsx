@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import NewFeatureText from "../components/NewFeatureText";
+import { FaArrowRight } from "react-icons/fa";
+import { Link } from "react-router-dom";
 const accessKey = import.meta.env.VITE_UNSPLASH_ACCESS_KEY;
 
 const NewFeatures = () => {
@@ -42,6 +44,12 @@ const NewFeatures = () => {
                 date="02 December 2024"
                 text="Top 10 Beatiful Beaches"
               />
+              <div className="pb-3 px-3 text-purple-800">
+                <Link to="/see more" className="animate-pulse flex items-center gap-2 text-center">
+                  <span>See more</span>
+                  <FaArrowRight className="text-purple-700" />
+                </Link>
+              </div>
             </div>
           ))}
         </div>
